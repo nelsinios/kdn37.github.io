@@ -15,12 +15,9 @@
 </head>
 <body>
 <!--Navigation bar-->
-<div id="nav">
-
-</div>
 <script>
-$(function(){
-  $("#nav").load("navbar.html");
+$.get("navbar.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
 });
 </script>
 <body>
@@ -31,6 +28,6 @@ $(function(){
  <div style="margin:40px;">
 Welcome to KDN37's group assignment. To explore the website you can select from the navigation menu above. To view our site-map click <a href="sitemap.png">here</a>
 </div>
-<center><i>This GitHub is the eollective efforts of Keaton Ferber, Dean Heighway, Sean Heighway and Nelson Kun for the second piece of assessment. Designed and utilised for Introduction of Information Techonology at RMIT University.</i>
+<center><i>This GitHub is the collective efforts of Keaton Ferber, Dean Heighway, Sean Heighway and Nelson Kun for the second piece of assessment. Designed and utilised for Introduction of Information Techonology at RMIT University.</i>
 </body>
 </html>
