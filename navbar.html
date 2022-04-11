@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><font face="Verdana"><a href="index.html">Home</a></font></li>
+  <li><font face="Verdana"><a href="profiles.html">Team Profiles</a</font>></li>
+  <li><font face="Verdana"><a href="jobs.html">Ideal Jobs</a></font></li>
+  <li><font face="Verdana"><a href="tools.html">Tools</a></font></li>
+  <li><font face="Verdana"><a href="indata.html">Industry Data</a></font></li>
+  <li><font face="Verdana"><a href="itwork.html">IT Work</a><</font>/li>
+  <li><font face="Verdana"><a class="active" href="ittech.html">IT Technologies</a></font></li>
+  <li><font face="Verdana"><a href="project.html">Project Idea</a></font></li>
+</ul>
