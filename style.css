@@ -1,6 +1,10 @@
 body 
   {margin: 0;}
 
+.p1 {
+  font-family: Times, sans-serif;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -30,8 +34,4 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
-}
-
-body {
-  *font-family: Verdana, sans-serif;
 }
