@@ -1,7 +1,7 @@
 body 
   {margin: 0;}
 
-ul.topnavbar {
+ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,9 +10,9 @@ ul.topnavbar {
   font family: Verdana, sans serif;
 }
 
-ul.topnavbar li {float: left;}
+ul.topnav li {float: left;}
 
-ul.topnavbar li a {
+ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -20,13 +20,13 @@ ul.topnavbar li a {
   text-decoration: none;
 }
 
-ul.topnavbar li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnavbar li a.active {background-color: #04AA6D;}
+ul.topnav li a.active {background-color: #04AA6D;}
 
-ul.topnavbar li.right {float: right;}
+ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnavbar li.right, 
-  ul.topnavbar li {float: none;}
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }
