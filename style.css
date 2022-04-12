@@ -7,7 +7,6 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #2e90f5;
-  font-family: Verdana, sans-serif;
 }
 
 ul.topnav li {float: left;}
@@ -18,11 +17,13 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Verdana, sans-serif;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: #FFF;
+  color: black;}
 
-ul.topnav li a.active {background-color: #04AA6D;}
+ul.topnav li a.active {background-color: #172A7C;}
 
 ul.topnav li.right {float: right;}
 
