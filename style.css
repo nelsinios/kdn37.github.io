@@ -1,9 +1,9 @@
 body 
   {margin: 0;}
 
-.p1 {
-  font-family: Verdana, sans-serif;
-}
+   p {
+ font-family: Verdana, sans-serif;
+ }
 
 ul.topnav {
   list-style-type: none;
