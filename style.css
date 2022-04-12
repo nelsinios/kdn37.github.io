@@ -75,6 +75,9 @@ color: #fff}
 }
 
 @media screen and (max-width: 600px) {
-  ul.dropdown li.right, 
-  ul.dropdown li {float: none;}
+  ul.dropdown-content li.right, 
+  ul.dropdown-content li {float: none;}
+div#.footer
+  width: 50% !important;
+  margin: 0 auto;
 }
