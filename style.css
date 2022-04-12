@@ -74,24 +74,7 @@ color: #fff}
   text-align: center;
 }
 
-@media (min-width: 768px) {
-    .nav{
-        max-height: none;
-        top: 0;
-        position: relative;
-        float: right;
-        width: fit-content;
-    }
-    .menu li{
-        float: left;
-    }
-    .menu a:hover{
-        background-color: transparent;
-        color: var(--gray);
-
-    }
-
-    .hamb{
-        display: none;
-    }
+@media screen and (max-width: 600px) {
+  ul.dropdown li.right, 
+  ul.dropdown li {float: none;}
 }
