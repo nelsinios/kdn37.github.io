@@ -73,8 +73,3 @@ body {
    height:60px;
    background:#6cf;
 }
-
-@media screen and (max-width: 600px) {
-  ul.navbar li.right, 
-  ul.navbar li {float: none;}
-}
