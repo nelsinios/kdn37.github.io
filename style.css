@@ -2,14 +2,6 @@ body {
   font-family: Verdana, sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
-
 .navbar {
   overflow: hidden;
   margin: 0;
