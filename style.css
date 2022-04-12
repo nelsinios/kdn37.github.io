@@ -10,9 +10,9 @@ ul.topnav {
   font family: 'Verdana'
 }
 
-ul.topnav li {float: left;}
+ul.topnavbar li {float: left;}
 
-ul.topnav li a {
+ul.topnavbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -27,6 +27,6 @@ ul.topnavbar li a.active {background-color: #04AA6D;}
 ul.topnavbar li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  ul.topnavbar li.right, 
+  ul.topnavbar li {float: none;}
 }
