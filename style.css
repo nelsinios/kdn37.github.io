@@ -4,12 +4,13 @@ body {
 
 .navbar {
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  width:100%;
   background-color: #00b4ff;
 }
 
 .navbar a {
+  float: left;
   font-size: 16px;
   font-family: Verdana, sans-serif;
   color: white;
