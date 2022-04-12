@@ -1,13 +1,13 @@
 body 
   {margin: 0;}
 
-ul.topnav {
+ul.topnavbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #2e90f5;
-  font family: 'Verdana'
+  font family: Verdana, sans serif;
 }
 
 ul.topnavbar li {float: left;}
