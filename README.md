@@ -1,2 +1,2 @@
 # kdn37.github.io
-Group assignment for Keaton, Dean, Sean and Nelson.
+The first group assignment for Keaton Ferber, Dean Heighway, Sean Heighway and Nelson Kun for the second piece of assessment for the unit of study 'Introduction to Information Technology' at RMIT University. This repository reflects the collective work of all members and their contribution to the creation of the website that forms as a team portfolio, address of the industry and certain sectors and a proposition of product that will form the second group assignment as the team concludes this unit of study in May 2022.
