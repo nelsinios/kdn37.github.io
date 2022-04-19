@@ -15,7 +15,7 @@ h1 {
 h2 {
   font-family: "Kanit", sans-serif;
   font-size: 30px;
-  color: navy;
+  color: fff;
 }
 
 ul {
@@ -68,36 +68,6 @@ color: #fff}
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-  text-align: center;
-}
-
-div.gallery:hover {
-  border: 5px solid #281ea4;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
 
 .footer {
